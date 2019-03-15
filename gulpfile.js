@@ -22,14 +22,13 @@ const DOCUMENTATION_DESTINATION = '_site';
 const Paths = {
   VENDOR_JS: [
     'node_modules/jquery/dist/jquery.js',
-    'node_modules/jquery.easing/jquery.easing.js',
     'node_modules/popper.js/dist/umd/popper.js',
-    'node_modules/bootstrap/dist/js/bootstrap.js',
-    'node_modules/bootstrap-select/js/bootstrap-select.js',
-    'node_modules/bootstrap-select/js/i18n/defaults-it_IT.js',
     'node_modules/owl.carousel/dist/owl.carousel.js',
   ],
   SOURCE_JS: [
+    'node_modules/bootstrap/dist/js/bootstrap.js',
+    'node_modules/bootstrap-select/js/bootstrap-select.js',
+    'node_modules/bootstrap-select/js/i18n/defaults-it_IT.js',
     'src/js/plugins/circular-loader/CircularLoader-v1.3.js',
     'src/js/plugins/password-strength-meter/password-strength-meter.js',
     'src/js/plugins/datepicker/locales/it.js',
@@ -236,7 +235,7 @@ gulp.task('fonts', () => {
 
 gulp.task('jekyll', done => {
 
-  const jekyll = process.platform === "win32" ?
+  const jekyll = process.platform === 'win32' ?
     spawn('jekyll.bat', ['build',
       '--watch',
       '--incremental',
@@ -282,13 +281,9 @@ gulp.task('build-documentation', gulp.series(
 gulp.task('sync', () => {
   browserSync.init({
     files: [DOCUMENTATION_DESTINATION + '/**'],
-    startPath: '/bootstrap-italia',
     port: 4000,
     server: {
       baseDir: DOCUMENTATION_DESTINATION,
-      routes: {
-        "/bootstrap-italia": DOCUMENTATION_DESTINATION
-      }
     }
   });
 
