@@ -61,7 +61,11 @@ const Paths = {
     'src/js/' + pkg.name + '.js'
   ],
 
-  SOURCE_SCSS: 'src/scss/' + pkg.name + '.scss',
+  SOURCE_SCSS: [
+      'src/scss/' + pkg.name + '.scss', // Standard
+      'src/scss/' + pkg.name + '-orange.scss' // Dolomiti unesco
+
+  ],
   SOURCE_DOCUMENTATION_SCSS: 'docs/assets/src/scss/docs.scss',
   SOURCE_DOCUMENTATION_JS: [
     'docs/assets/src/js/cover-animation.js',

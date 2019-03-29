@@ -1,0 +1,7 @@
+@media (min-width: #{map-get($grid-breakpoints, lg)}) {
+  .tdflow-modal{
+    .modal-lg {
+      max-width: 1400px;
+    }
+  }
+}
