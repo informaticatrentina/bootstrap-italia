@@ -769,3 +769,17 @@ div.split div.three-center
 .fa-exchange {
   @extend .fa-exchange-alt;
 }
+
+.glyphicon {
+  @extend .fa;
+}
+.glyphicon-trash {
+  @extend .fa-trash;
+}
+.glyphicon-search {
+  @extend .fa-search;
+}
+
+.ezobject-relation-remove-button {
+  @extend .btn-outline-danger;
+}

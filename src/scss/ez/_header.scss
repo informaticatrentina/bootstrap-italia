@@ -1,3 +1,65 @@
+.it-header-center-wrapper {
+  .it-header-center-content-wrapper {
+    .it-brand-wrapper {
+      .it-site-title {
+        display: flex;
+        color: $header-center-text-color;
+        align-items: center;
+        h2 {
+          font-size: $header-center-h2-size-mob;
+          margin-bottom: 0;
+          font-weight: $header-center-h2-weight;
+          letter-spacing: unset;
+          line-height: 1.1;
+        }
+        h3 {
+          font-size: $header-center-h3-size;
+          font-weight: normal;
+          margin-bottom: 0;
+        }
+        .icon {
+          fill: $header-center-text-color;
+          width: $header-center-icon-size-mob;
+          height: $header-center-icon-size-mob;
+          margin-right: $header-center-icon-margin-mob;
+          flex-shrink: 0;
+        }
+      }
+    }
+  }
+}
+
+
+//Tablet horizontal / small desktop
+@media (min-width: #{map-get($grid-breakpoints, lg)}) {
+  .it-header-center-wrapper {
+    .it-header-center-content-wrapper {
+      .it-brand-wrapper {
+        .it-site-title {
+          display: flex;
+          align-items: center;
+          h2 {
+            font-size: $header-center-h2-size;
+            margin-bottom: 0;
+            font-weight: $header-center-h2-weight;
+          }
+          h3 {
+            font-size: $header-center-h3-size;
+            font-weight: normal;
+            margin-bottom: 0;
+          }
+          .icon {
+            width: $header-center-icon-size;
+            height: $header-center-icon-size;
+            margin-right: $header-center-icon-margin;
+          }
+        }
+      }
+    }
+  }
+}
+
+
 .Header-logo {
   max-height: 80px;
 }
