@@ -1,3 +1,13 @@
+.ezpl {
+  @extend .pl-xl-4;
+  @extend .pl-lg-4;
+}
+
+.ezpr {
+  @extend .pr-xl-4;
+  @extend .pr-lg-4;
+}
+
 @media (min-width: #{map-get($grid-breakpoints, lg)}) {
   .tdflow-modal{
     .modal-lg {
