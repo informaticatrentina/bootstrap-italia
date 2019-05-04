@@ -67,7 +67,16 @@ const Paths = {
 
   SOURCE_SCSS: [
       'src/scss/' + pkg.name + '.scss', // Standard
-      'src/scss/' + pkg.name + '-orange.scss' // Dolomiti unesco
+      'src/scss/' + pkg.name + '-orange.scss', // Dolomiti unesco
+
+      'src/scss/' + pkg.name + '-verde.scss', // Verde
+      'src/scss/' + pkg.name + '-acquamarina.scss', // Acquamarina
+      'src/scss/' + pkg.name + '-ceruleo.scss', // Ceruleo
+      'src/scss/' + pkg.name + '-azzurro.scss', // Azzurro
+      'src/scss/' + pkg.name + '-giallo.scss', // Giallo
+      'src/scss/' + pkg.name + '-rosso.scss', // Rosso
+      'src/scss/' + pkg.name + '-amaranto.scss', // Amaranto
+      'src/scss/' + pkg.name + '-viola.scss' // Viola
 
   ],
   SOURCE_DOCUMENTATION_SCSS: 'docs/assets/src/scss/docs.scss',

@@ -1,0 +1,219 @@
+@import 'node_modules/bootstrap-select/sass/bootstrap-select';
+
+@import 'node_modules/owl.carousel/src/scss/core';
+@import 'node_modules/owl.carousel/src/scss/animate';
+@import 'node_modules/owl.carousel/src/scss/autoheight';
+
+// funzioni e variabili colore
+@import 'functions';
+@import 'utilities/colors_vars-orange';
+
+//variables
+@import 'variables';
+
+//classi colore
+@import 'utilities/colors';
+
+@import 'node_modules/bootstrap/scss/functions';
+@import 'node_modules/bootstrap/scss/variables';
+
+// mixins
+@import 'node_modules/bootstrap/scss/mixins';
+@import 'custom/mixins/buttons';
+@import 'custom/mixins/text-emphasis';
+
+@import 'node_modules/bootstrap/scss/root';
+@import 'node_modules/bootstrap/scss/print';
+@import 'node_modules/bootstrap/scss/reboot';
+@import 'node_modules/bootstrap/scss/type';
+@import 'node_modules/bootstrap/scss/images';
+@import 'node_modules/bootstrap/scss/code';
+@import 'node_modules/bootstrap/scss/grid';
+@import 'node_modules/bootstrap/scss/tables';
+@import 'node_modules/bootstrap/scss/forms';
+@import 'node_modules/bootstrap/scss/buttons';
+@import 'node_modules/bootstrap/scss/transitions';
+@import 'node_modules/bootstrap/scss/dropdown';
+@import 'node_modules/bootstrap/scss/button-group';
+@import 'node_modules/bootstrap/scss/input-group';
+@import 'node_modules/bootstrap/scss/nav';
+@import 'node_modules/bootstrap/scss/navbar';
+@import 'node_modules/bootstrap/scss/card';
+@import 'node_modules/bootstrap/scss/breadcrumb';
+@import 'node_modules/bootstrap/scss/pagination';
+@import 'node_modules/bootstrap/scss/badge';
+@import 'node_modules/bootstrap/scss/progress';
+@import 'node_modules/bootstrap/scss/media';
+@import 'node_modules/bootstrap/scss/list-group';
+@import 'node_modules/bootstrap/scss/close';
+@import 'node_modules/bootstrap/scss/modal';
+@import 'node_modules/bootstrap/scss/tooltip';
+@import 'node_modules/bootstrap/scss/popover';
+@import 'node_modules/bootstrap/scss/carousel';
+@import 'node_modules/bootstrap/scss/utilities';
+@import 'node_modules/bootstrap/scss/spinners';
+@import 'node_modules/bootstrap/scss/toasts';
+
+// Customizzazioni e nuovi componenti
+@import 'custom/type';
+@import 'custom/grid';
+@import 'custom/tables';
+@import 'custom/breadcrumb';
+@import 'custom/modal';
+@import 'custom/collapse';
+@import 'custom/carousel';
+@import 'custom/alert';
+@import 'custom/buttons';
+@import 'custom/forms';
+@import 'custom/form-input-file';
+@import 'custom/form-input-number';
+@import 'custom/form-input-upload';
+@import 'custom/form-toggles';
+@import 'custom/form-password';
+@import 'custom/form-select';
+@import 'custom/form-transfer';
+@import 'custom/dropdown';
+@import 'custom/pager';
+@import 'custom/tab';
+@import 'custom/cookiebar';
+@import 'custom/hero';
+@import 'custom/forward';
+@import 'custom/back-to-top';
+@import 'custom/autocomplete';
+@import 'custom/linklist';
+@import 'custom/navigation';
+@import 'custom/skiplinks';
+@import 'custom/affix';
+@import 'custom/sidebar';
+@import 'custom/sidebarthemes';
+@import 'custom/megamenu';
+@import 'custom/bottomnav';
+@import 'custom/navscroll';
+@import 'custom/navscrolltheme';
+@import 'custom/callout';
+@import 'custom/toolbar';
+@import 'custom/sections';
+@import 'custom/dialog';
+@import 'custom/notifications';
+@import 'custom/avatar';
+@import 'custom/thumbnav';
+@import 'custom/steppers';
+@import 'custom/card';
+@import 'custom/imgresponsive';
+@import 'custom/overlay-panel';
+@import 'custom/progress-donuts';
+@import 'custom/progress-bars';
+@import 'custom/progress-spinners';
+@import 'custom/gridlist';
+@import 'custom/popover';
+@import 'custom/tooltip';
+@import 'custom/list';
+@import 'custom/chips';
+@import 'custom/rating';
+@import 'custom/dimmer';
+@import 'custom/timeline';
+
+// datepicker
+@import 'custom/form-datepicker';
+
+// timepicker
+// @import "custom/timepicker";
+
+// header
+@import 'custom/headerslim';
+@import 'custom/headerslimtheme';
+@import 'custom/headercenter';
+@import 'custom/headercentertheme';
+@import 'custom/headernavbar';
+@import 'custom/headernavbartheme';
+@import 'custom/header';
+
+// footer
+@import 'custom/footer';
+
+//colors theme
+@import 'custom/navigationtheme';
+
+// componente di esempio
+@import 'custom/componente-base';
+
+//gestione dei focus
+@import 'utilities/focus';
+@import 'utilities/icons';
+
+//////////////// MODIFICHE ////////////////
+
+// Chosen (eZ Edit Toolbar)
+@import "chosen/bootstrap-chosen-variables";
+@import "chosen/bootstrap-chosen";
+
+//Font Awesome 5.5.0
+@import 'fontawesome550/variables';
+@import 'fontawesome550/mixins';
+@import 'fontawesome550/core';
+@import 'fontawesome550/larger';
+@import 'fontawesome550/fixed-width';
+@import 'fontawesome550/list';
+@import 'fontawesome550/bordered-pulled';
+@import 'fontawesome550/animated';
+@import 'fontawesome550/rotated-flipped';
+@import 'fontawesome550/stacked';
+@import 'fontawesome550/icons';
+@import 'fontawesome550/screen-reader';
+
+@font-face {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 900;
+  src: url('#{$fa-font-path}/fa-solid-900.eot');
+  src: url('#{$fa-font-path}/fa-solid-900.eot?#iefix') format('embedded-opentype'),
+  url('#{$fa-font-path}/fa-solid-900.woff2') format('woff2'),
+  url('#{$fa-font-path}/fa-solid-900.woff') format('woff'),
+  url('#{$fa-font-path}/fa-solid-900.ttf') format('truetype'),
+  url('#{$fa-font-path}/fa-solid-900.svg#fontawesome') format('svg');
+}
+
+.fa,
+.fas {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+}
+
+
+@font-face {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 400;
+  src: url('#{$fa-font-path}/fa-regular-400.eot');
+  src: url('#{$fa-font-path}/fa-regular-400.eot?#iefix') format('embedded-opentype'),
+  url('#{$fa-font-path}/fa-regular-400.woff2') format('woff2'),
+  url('#{$fa-font-path}/fa-regular-400.woff') format('woff'),
+  url('#{$fa-font-path}/fa-regular-400.ttf') format('truetype'),
+  url('#{$fa-font-path}/fa-regular-400.svg#fontawesome') format('svg');
+}
+
+.far {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+// eZ-Publish by Trentino Digitale SpA
+@import 'ez/variables';
+@import 'ez/ezpublish';
+@import 'ez/tdflow';
+
+@import 'ez/header';
+@import 'ez/footer';
+
+@import 'ez/full';
+@import 'ez/panel';
+@import 'ez/line';
+@import 'ez/embed';
+
+// * Blocchi eZFlow * //
+@import 'ez/hero';
+@import 'ez/agenda';
+
+
+// * Custom su Classi di Contenuto * //
+@import 'ez/content_classes/persona';
