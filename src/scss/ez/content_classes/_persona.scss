@@ -29,3 +29,14 @@
     }
   }
 }
+
+// Tablet only
+@media (max-width: #{map-get($grid-breakpoints, xl)}) {
+  .class-persona {
+    .info-persona {
+      .contacts-persona {
+        font-size: .8rem;
+      }
+    }
+  }
+}

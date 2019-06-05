@@ -6,7 +6,7 @@
 
 // funzioni e variabili colore
 @import 'functions';
-@import 'utilities/colors_vars-orange';
+@import 'utilities/colors_vars-amaranto';
 
 //variables
 @import 'variables';
@@ -148,23 +148,24 @@
 @import "chosen/bootstrap-chosen";
 
 //Font Awesome 5.5.0
-@import 'fontawesome550/variables';
-@import 'fontawesome550/mixins';
-@import 'fontawesome550/core';
-@import 'fontawesome550/larger';
-@import 'fontawesome550/fixed-width';
-@import 'fontawesome550/list';
-@import 'fontawesome550/bordered-pulled';
-@import 'fontawesome550/animated';
-@import 'fontawesome550/rotated-flipped';
-@import 'fontawesome550/stacked';
-@import 'fontawesome550/icons';
-@import 'fontawesome550/screen-reader';
+@import 'fontawesome580/variables';
+@import 'fontawesome580/mixins';
+@import 'fontawesome580/core';
+@import 'fontawesome580/larger';
+@import 'fontawesome580/fixed-width';
+@import 'fontawesome580/list';
+@import 'fontawesome580/bordered-pulled';
+@import 'fontawesome580/animated';
+@import 'fontawesome580/rotated-flipped';
+@import 'fontawesome580/stacked';
+@import 'fontawesome580/icons';
+@import 'fontawesome580/screen-reader';
 
 @font-face {
   font-family: 'Font Awesome 5 Free';
   font-style: normal;
   font-weight: 900;
+  font-display: $fa-font-display;
   src: url('#{$fa-font-path}/fa-solid-900.eot');
   src: url('#{$fa-font-path}/fa-solid-900.eot?#iefix') format('embedded-opentype'),
   url('#{$fa-font-path}/fa-solid-900.woff2') format('woff2'),
@@ -179,11 +180,11 @@
   font-weight: 900;
 }
 
-
 @font-face {
   font-family: 'Font Awesome 5 Free';
   font-style: normal;
   font-weight: 400;
+  font-display: $fa-font-display;
   src: url('#{$fa-font-path}/fa-regular-400.eot');
   src: url('#{$fa-font-path}/fa-regular-400.eot?#iefix') format('embedded-opentype'),
   url('#{$fa-font-path}/fa-regular-400.woff2') format('woff2'),
@@ -201,6 +202,7 @@
 @import 'ez/variables';
 @import 'ez/ezpublish';
 @import 'ez/tdflow';
+@import 'ez/ezflow';
 
 @import 'ez/header';
 @import 'ez/footer';

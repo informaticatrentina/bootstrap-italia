@@ -95,7 +95,7 @@ $colors: map-merge(
 );
 
 // Main Palette
-$primary: $orange !default;
+$primary: $giallo !default;
 $secondary: $gray-secondary !default;
 
 // Info Colors
@@ -129,9 +129,9 @@ $theme-colors: map-merge(
 );
 
 // PRIMARY COLORS DEFINITION //
-$primary-h: 15;
-$primary-s: 88;
-$primary-b: 91;
+$primary-h: 42;
+$primary-s: 100;
+$primary-b: 98;
 
 $color-primary: hsb($primary-h, $primary-s, $primary-b) !default;
 $white: hsb(255, 255, 255) !default;
