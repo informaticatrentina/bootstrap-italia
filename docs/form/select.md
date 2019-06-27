@@ -83,7 +83,7 @@ Per attivare la ricerca è sufficiente aggiungere il parametro `data-live-search
 {% capture example %}
 <div class="bootstrap-select-wrapper">
   <label>Etichetta</label>
-  <select title="Scegli una opzione" data-live-search="true" data-live-search-placeholder="Search here...">
+  <select title="Scegli una opzione" data-live-search="true" data-live-search-placeholder="Cerca opzioni">
     <option value="1">Lorem ipsum dolor sit amet</option>
     <option value="2">Duis vestibulum eleifend libero</option>
     <option value="3">Phasellus pretium orci sed odio tempus</option>
@@ -155,6 +155,8 @@ Per le select con raggruppamenti utilizzare il tag HTML `<optgroup>` per raggrup
 </div>
 {% endcapture %}{% include example.html content=example %}
 
+{% comment %}
+{% TODO questo esempio è stato temporaneamente rimosso perché potenzialmente a rischio di XSS %}
 ### Select multipla con gruppi e checkboxes
 
 Per la creazione di questo tipo di select:
@@ -181,11 +183,13 @@ Per inserire il componente [Checkbox]({{ site.baseurl }}/docs/form/checkbox/) in
 </div>
 {% endcapture %}{% include example.html content=example %}
 
+{% endcomment %}
+
 ### Modifica dinamica del campi della select
 
 Dal momento che il plugin viene attivato al caricamento del documento mentre a volte può essere necessario attendere, viene messa a disposizione una funzione `$.setOptionsToSelect(_parametro)` che permette di riscrivere le opzioni della select, ad esempio nel caso vengano caricate successivamente. La funzione dev'essere chiamata dall'elemento con classe `.bootstrap-select-wrapper`, e con parametro in input `_parametro` un oggetto Javascript con proprietà "value" e "text" come segue:
 
-```
+{% highlight js %}
 $(document).ready(function() {
     $('.bootstrap-select-wrapper.my-select-wrapper').setOptionsToSelect([{
       text: 'push Label 1',
@@ -198,5 +202,5 @@ $(document).ready(function() {
       value: 'pushValue 3'
     }]);
   });
-```
+{% endhighlight %}
 
