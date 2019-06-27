@@ -12,3 +12,20 @@
   margin: 0 auto;
   width: 0;
 }
+
+// Animazione Aree Tematiche //
+#animated-chevron {
+  height: 50px;
+  padding-bottom: 10px;
+}
+#animated-chevron svg {
+  position: relative;
+  animation-name: chevron-animation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes chevron-animation {
+  0%   {top: -20px;}
+  100% {top: 0px;}
+}
