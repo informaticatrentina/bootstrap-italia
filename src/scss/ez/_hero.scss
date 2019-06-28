@@ -26,3 +26,25 @@
     }
   }
 }
+
+// Search bar //
+.hero-search-bar {
+  position: relative;
+  bottom: -12rem;
+
+  input {
+    border-bottom: none !important;
+  }
+
+  .input-group-text {
+    border-bottom: none !important;
+  }
+}
+
+@media (max-width: #{map-get($grid-breakpoints, lg)}) {
+
+  .hero-search-bar {
+    bottom: 0;
+  }
+
+}
