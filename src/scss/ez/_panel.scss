@@ -107,3 +107,14 @@
   }
 
 }
+
+
+@media (min-width: #{map-get($grid-breakpoints, md)}) {
+  .card {
+    .card-body {
+      p {
+        font-size: .77778rem;
+      }
+    }
+  }
+}
