@@ -783,3 +783,14 @@ div.split div.three-center
 .ezobject-relation-remove-button {
   @extend .btn-outline-danger;
 }
+
+/* =Google Search
+-------------------------------------------------
+*/
+.gsearch {
+  .htmlSnippet{
+    br {
+      display: none;
+    }
+  }
+}

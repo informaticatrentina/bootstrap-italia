@@ -1,0 +1,26 @@
+.easy-autocomplete.eac-square {
+  position: relative !important;
+  -webkit-box-flex: 1 !important;
+  -ms-flex: 1 1 auto !important;
+  flex: 1 1 auto !important;
+  width: 1% !important;
+  margin-bottom: 0 !important;
+
+  input {
+    border: none !important;
+    border-bottom: 1px solid #5c6f82 !important;
+    border-radius: 0 !important;
+    color: inherit !important;
+    padding: .375rem .5rem !important;
+    outline: 0 !important;
+    height: 2.5rem !important;
+    width: 100% !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    -webkit-transition: .2s ease-out !important;
+    transition: .2s ease-out !important;
+    font-weight: 700 !important;
+    font-style: normal !important;
+    min-width: auto !important;
+  }
+}
