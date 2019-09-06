@@ -64,11 +64,20 @@
   max-height: 80px;
 }
 
+.is-sticky .Header-logo {
+  max-height: 50px;
+}
+
 @media (max-width: #{map-get($grid-breakpoints, lg)}) {
   .Header-logo {
     max-height: 40px;
   }
+
+  .is-sticky .Header-logo {
+    max-height: 40px;
+  }
 }
+
 
 // Dimensione font card in timeline
 .timeline-element .card .card-body p {
