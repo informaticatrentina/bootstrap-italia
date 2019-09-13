@@ -118,3 +118,9 @@
     }
   }
 }
+
+// -------------------- card piccole --------------------
+
+.card-small .card::after {
+  display: none;
+}

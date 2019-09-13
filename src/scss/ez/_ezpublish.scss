@@ -794,3 +794,17 @@ div.split div.three-center
     }
   }
 }
+
+/* =Side Menu
+-------------------------------------------------
+*/
+.ez-sidemenu-wrapper {
+  @extend .lightgrey-bg-a2;
+  @extend .mr-2;
+  @extend .d-none;
+  @extend .d-md-block;
+}
+
+.is-sticky .ez-sidemenu-wrapper {
+  margin-right: 34px !important;
+}

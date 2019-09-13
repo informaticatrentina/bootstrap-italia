@@ -119,6 +119,11 @@
     .chip-label {
       color: $white;
       transition: color 0.1s;
+
+      a {
+        color: $white;
+        transition: color 0.1s;
+      }
     }
     //close button
     button {
