@@ -1,0 +1,22 @@
+.primary-bg {
+  .it-carousel-wrapper {
+    h2 {
+      border-bottom: none !important;
+    }
+    .read-more {
+      .text {
+        color: white !important;
+      }
+      .icon {
+        use {
+          fill: white !important;
+        }
+      }
+    }
+    .owl-dots {
+      .owl-dot {
+        background: white !important;
+      }
+    }
+  }
+}
