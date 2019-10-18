@@ -249,7 +249,7 @@ $(function() {
           $(event.target)
             .find('.owl-dot')
             .each(function(index) {
-              $(this).attr('aria-labelledby', 'owl-dot-' + index)
+              $(this).attr('aria-label', 'slider posizione: ' + index)
             })
         },
       })
