@@ -82,6 +82,9 @@
       background: $primary-a4 !important;
     }
 
+    #no-events {
+      display: none;
+    }
 
   }
 }
@@ -90,6 +93,20 @@
 @media (max-width: #{map-get($grid-breakpoints, lg)}) {
   .selected-day {
     display: none !important;
+  }
+  .ez-agenda {
+    .container {
+      .day {
+        display: none;
+      }
+      .day.day-has-events {
+        display: block;
+      }
+
+      #no-events {
+        display: block;
+      }
+    }
   }
 }
 
