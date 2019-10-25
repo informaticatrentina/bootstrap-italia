@@ -18,13 +18,11 @@
 
   .u-content-main-side-3 {
     @extend .pr-4;
-    @extend .col-md-8;
     @extend .col-lg-8;
   }
 
   .u-content-main-side-4 {
     @extend .pr-4;
-    @extend .col-md-9;
     @extend .col-lg-9;
   }
 
@@ -169,12 +167,10 @@
   }
 
   .u-content-related-3 {
-    @extend .col-md-4;
     @extend .col-lg-4;
   }
 
   .u-content-related-4 {
-    @extend .col-md-3;
     @extend .col-lg-3;
   }
 
