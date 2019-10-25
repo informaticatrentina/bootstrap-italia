@@ -140,6 +140,7 @@ $primary-s: 100;
 $primary-b: 80;
 
 $color-primary: hsb($primary-h, $primary-s, $primary-b) !default;
+$white: hsb(255, 255, 255) !default;
 
 // ACCENT COLORS DEFINITIONS
 // analoghi
