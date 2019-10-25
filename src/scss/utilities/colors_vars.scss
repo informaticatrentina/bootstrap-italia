@@ -41,12 +41,13 @@ $primary-s: 100 !default;
 $primary-b: 80 !default;
 
 $primary: hsb($primary-h, $primary-s, $primary-b) !default;
+$color-primary: hsb($primary-h, $primary-s, $primary-b) !default;
 
 $indigo: hsb(243, 70, 100) !default;
 $purple: hsb(243, 40, 100) !default;
 $pink: hsb(350, 30, 100) !default;
 $red: hsb(351, 75, 97) !default;
-$orange: hsb(36, 100, 100) !default;
+$orange: hsb(15, 88, 91) !default;
 $yellow: hsb(44, 55, 100) !default;
 $green: hsb(159, 100, 80) !default;
 $teal: hsb(178, 95, 85) !default;
@@ -55,7 +56,6 @@ $blue: hsb(210, 100, 90) !default;
 $light: hsb(255, 5, 95) !default;
 $dark: hsb(210, 70, 30) !default;
 
-<<<<<<< HEAD
 $acquamarina: hsb(166,76,71) !default;
 $amaranto: hsb(332,100,75) !default;
 $azzurro: hsb(199,100,83) !default;
@@ -64,10 +64,8 @@ $giallo: hsb(42,100,98) !default;
 $rosso: hsb(394,93,82) !default;
 $verde: hsb(103,79,73) !default;
 $viola: hsb(270,72,51) !default;
-=======
 $yiq-text-light: $white !default;
 $yiq-text-dark: $black !default;
->>>>>>> 9ed2d2b7f6ff3192ab58d8c289cab254ac113ea6
 
 $red-accessible: hsb(351, 75, 85) !default;
 $orange-accessible: hsb(36, 100, 65) !default;
