@@ -793,7 +793,13 @@ div.split div.three-center
       display: none;
     }
   }
+
+  .SearchItem:nth-child(even) {
+    @extend .neutral-1-bg-a1;
+  }
 }
+
+
 
 /* =Side Menu
 -------------------------------------------------
