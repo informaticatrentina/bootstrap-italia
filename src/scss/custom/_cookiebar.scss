@@ -97,7 +97,7 @@
 //Tablet horizontal / small desktop
 @media (min-width: #{map-get($grid-breakpoints, lg)}) {
   .cookiebar {
-    max-width: $v-gap * 104;
+    max-width: $v-gap * 117;
     left: 50%;
     right: auto;
     transform: translateX(-50%);

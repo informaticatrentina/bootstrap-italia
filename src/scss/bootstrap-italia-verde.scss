@@ -62,8 +62,10 @@
 @import 'custom/modal';
 @import 'custom/collapse';
 @import 'custom/carousel';
+@import 'custom/calendar';
 @import 'custom/alert';
 @import 'custom/buttons';
+@import 'custom/font';
 @import 'custom/forms';
 @import 'custom/form-input-file';
 @import 'custom/form-input-number';
@@ -112,12 +114,17 @@
 @import 'custom/rating';
 @import 'custom/dimmer';
 @import 'custom/timeline';
+@import 'custom/anchor';
+@import 'custom/map';
+@import 'custom/point-list';
+@import 'custom/rating-list';
+@import 'custom/badge';
 
 // datepicker
 @import 'custom/form-datepicker';
 
 // timepicker
-// @import "custom/timepicker";
+@import 'custom/timepicker';
 
 // header
 @import 'custom/headerslim';
@@ -146,7 +153,6 @@
 // Chosen (eZ Edit Toolbar)
 @import "chosen/bootstrap-chosen-variables";
 @import "chosen/bootstrap-chosen";
-
 
 // Font Awesome
 @import 'ez/font_awesome';
