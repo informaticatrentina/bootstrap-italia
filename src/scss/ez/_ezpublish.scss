@@ -795,7 +795,7 @@ div.split div.three-center
   }
 
   .SearchItem:nth-child(even) {
-    @extend .neutral-1-bg-a1;
+    background-color: #ebeced;
   }
 }
 
@@ -812,9 +812,10 @@ div.split div.three-center
 }
 
 .ez-sidemenu-wrapper {
-  @extend .lightgrey-bg-a2;
   @extend .mr-4;
   height: 100%;
+  background-color: #edf5fc;
+
 }
 
 .is-sticky .ez-sidemenu-wrapper {
