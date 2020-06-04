@@ -76,7 +76,8 @@ const Paths = {
       'src/scss/' + pkg.name + '-giallo.scss', // Giallo
       'src/scss/' + pkg.name + '-rosso.scss', // Rosso
       'src/scss/' + pkg.name + '-amaranto.scss', // Amaranto
-      'src/scss/' + pkg.name + '-viola.scss' // Viola
+      'src/scss/' + pkg.name + '-viola.scss' , // Viola
+	  'src/scss/' + pkg.name + '-blunotte.scss' // Blu Notte
 
   ],
   SOURCE_DOCUMENTATION_SCSS: 'docs/assets/src/scss/docs.scss',

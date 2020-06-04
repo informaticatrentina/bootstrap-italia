@@ -1,4 +1,5 @@
 // HSB (https://it.wikipedia.org/wiki/Hue_Saturation_Brightness, coincidente con il modello HSV)
+// HSB (https://it.wikipedia.org/wiki/Hue_Saturation_Brightness, coincidente con il modello HSV)
 // è lo spazio colore scelto per ottenere le varianti colore della tonalità primaria.
 
 // Color system
@@ -36,9 +37,9 @@ $grays: map-merge(
 }
 
 // PRIMARY COLORS DEFINITION //
-$primary-h: 210 !default;
-$primary-s: 100 !default;
-$primary-b: 80 !default;
+$primary-h: 228;
+$primary-s: 73;
+$primary-b: 27;
 
 $primary: hsb($primary-h, $primary-s, $primary-b) !default;
 $color-primary: hsb($primary-h, $primary-s, $primary-b) !default;
@@ -64,7 +65,7 @@ $giallo: hsb(42,100,98) !default;
 $rosso: hsb(394,93,82) !default;
 $verde: hsb(103,79,73) !default;
 $viola: hsb(270,72,51) !default;
-$blunotte: hsb(228,73,27) !default;
+$blunotte: hsb(228,93,10) !default;
 $yiq-text-light: $white !default;
 $yiq-text-dark: $black !default;
 
@@ -214,8 +215,8 @@ $primary-a11: hsb($primary-h, $primary-s, 30);
 $primary-a10: hsb($primary-h, $primary-s, 40);
 $primary-a9: hsb($primary-h, $primary-s, 50);
 $primary-a8: hsb($primary-h, $primary-s, 60);
-$primary-a7: hsb($primary-h, $primary-s, 70);
-$primary-a6: hsb($primary-h, $primary-s, 80);
+$primary-a7: hsb($primary-h, $primary-s, 25);
+$primary-a6: hsb($primary-h, $primary-s, 27);
 $primary-a5: hsb($primary-h, $primary-s - 15, 84);
 $primary-a4: hsb($primary-h, $primary-s - 30, 88);
 $primary-a3: hsb($primary-h, $primary-s - 45, 92);
